@@ -1,0 +1,6 @@
+applications:
+- name: jdbcpoc
+  instances: 1
+  services:
+  - mysql-vakyam
+  path: ./jdbcpoc-0.0.1-SNAPSHOT.jar
