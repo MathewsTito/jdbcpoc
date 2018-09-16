@@ -27,7 +27,7 @@ public class CloudConfig    {
                 CloudFactory cloudFactory = new CloudFactory();
                 Cloud cloud = cloudFactory.getCloud();
                 PooledServiceConnectorConfig.PoolConfig poolConfig = new PooledServiceConnectorConfig.PoolConfig(2, 2, 8000);
-                List<String> dataSourceNames = Arrays.asList("TomcatDbcpPooledDataSourceCreator", "TomcatJdbcPooledDataSourceCreator", "HikariCpPooledDataSourceCreator");
+                List<String> dataSourceNames = Arrays.asList("MysqlDataSourceCreator", "TomcatJdbcPooledDataSourceCreator", "HikariCpPooledDataSourceCreator");
                 DataSourceConfig dbConfig = new DataSourceConfig(poolConfig, null,dataSourceNames);
 //                List<String> dataSourceNames = Arrays.asList("TomcatJdbcPooledDataSourceCreator", "HikariCpPooledDataSourceCreator", "BasicDbcpPooledDataSourceCreator");
 //                DataSourceConfig dbConfig = new DataSourceConfig(dataSourceNames);
