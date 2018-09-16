@@ -13,7 +13,9 @@ import org.springframework.context.annotation.Profile;
 import javax.sql.DataSource;
 import java.sql.SQLException;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class CloudConfig    {
 
@@ -26,14 +28,20 @@ public class CloudConfig    {
             public DataSource dataSource() {
                 CloudFactory cloudFactory = new CloudFactory();
                 Cloud cloud = cloudFactory.getCloud();
+
+                Map<String, Object> connectionProperties = new HashMap<>();
+//              connectionProperties.put("loginTimeout", 5);
+
                 PooledServiceConnectorConfig.PoolConfig poolConfig = new PooledServiceConnectorConfig.PoolConfig(2, 2, 8000);
+
                 List<String> dataSourceNames = Arrays.asList("BasicDbcpPooledDataSourceCreator", "TomcatJdbcPooledDataSourceCreator", "HikariCpPooledDataSourceCreator");
-                DataSourceConfig dbConfig = new DataSourceConfig(poolConfig, null,dataSourceNames);
+
+                DataSourceConfig dbConfig = new DataSourceConfig(poolConfig, null,dataSourceNames,connectionProperties);
 //                List<String> dataSourceNames = Arrays.asList("TomcatJdbcPooledDataSourceCreator", "HikariCpPooledDataSourceCreator", "BasicDbcpPooledDataSourceCreator");
 //                DataSourceConfig dbConfig = new DataSourceConfig(dataSourceNames);
                 DataSource ds = connectionFactory().dataSource("mysql-vakyam", dbConfig);
                 try {
-                    ds.setLoginTimeout(5);
+                    ds.setLoginTimeout(2);
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }
