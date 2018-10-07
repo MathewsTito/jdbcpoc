@@ -3,4 +3,5 @@ applications:
   instances: 1
   services:
   - mysql-vakyam
+  - my-ext-service
   path: ./build/libs/jdbcpoc-0.0.1-SNAPSHOT.jar

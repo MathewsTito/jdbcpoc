@@ -1,0 +1,213 @@
+Retrieving logs for app jdbcpoc in org tito-vakyam-dev / space development as tito.mathews@gmail.com...
+
+   2018-10-06T19:32:42.74-0600 [APP/PROC/WEB/0] OUT 2018-10-07 01:32:42.744  INFO 15 --- [nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+   2018-10-06T19:32:42.74-0600 [APP/PROC/WEB/0] OUT 2018-10-07 01:32:42.745  INFO 15 --- [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+   2018-10-06T19:32:42.86-0600 [APP/PROC/WEB/0] OUT 2018-10-07 01:32:42.867  INFO 15 --- [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 122 ms
+   2018-10-06T19:32:43.22-0600 [APP/PROC/WEB/0] OUT 2018-10-07 01:32:43.221  INFO 15 --- [nio-8080-exec-4] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3c7b3a71
+   2018-10-06T19:32:43.96-0600 [APP/PROC/WEB/0] OUT LOGGER::In Primary..
+   2018-10-06T19:32:44.12-0600 [APP/PROC/WEB/0] OUT LOGGER::In Primary..
+   2018-10-06T19:32:44.12-0600 [APP/PROC/WEB/0] OUT 2018-10-07 01:32:43.991  WARN 15 --- [ hystrix-MyBO-2] o.a.tomcat.jdbc.pool.ConnectionPool      : maxIdle is larger than maxActive, setting maxIdle to: 4
+   2018-10-06T19:32:44.39-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:44.39-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:44.44-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:44.50-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:44.50-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:44.51-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:44.51-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:44.51-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:45.06-0600 [RTR/4] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:42.567+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 17 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:61750" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"2f21cb92-1da4-4b37-4c86-3cccf1e0cfd8" response_time:2.493954432 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"969a7ad62f7f1494" x_b3_spanid:"969a7ad62f7f1494" x_b3_parentspanid:"-"
+   2018-10-06T19:32:45.06-0600 [RTR/4] OUT 
+   2018-10-06T19:32:45.07-0600 [RTR/9] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:42.567+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 17 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:27844" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"75ef0eec-25d2-430f-5d7a-a549c37f7b47" response_time:2.507456911 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"6eee037c80156087" x_b3_spanid:"6eee037c80156087" x_b3_parentspanid:"-"
+   2018-10-06T19:32:45.07-0600 [RTR/9] OUT 
+   2018-10-06T19:32:45.07-0600 [RTR/7] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:42.860+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 17 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:21526" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"3279336c-a0ed-43d0-5807-3ae8b96e89ad" response_time:2.215622483 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"78a5294023082684" x_b3_spanid:"78a5294023082684" x_b3_parentspanid:"-"
+   2018-10-06T19:32:45.07-0600 [RTR/7] OUT 
+   2018-10-06T19:32:45.07-0600 [RTR/11] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:42.639+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 17 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:18046" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"ebf504f4-2c6f-4def-5982-2c03eb84f574" response_time:2.436815962 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"f271acdb84de57bf" x_b3_spanid:"f271acdb84de57bf" x_b3_parentspanid:"-"
+   2018-10-06T19:32:45.07-0600 [RTR/11] OUT 
+   2018-10-06T19:32:45.02-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:45.02-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:45.02-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:45.04-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:45.48-0600 [APP/PROC/WEB/0] OUT LOGGER::In Primary..
+   2018-10-06T19:32:45.48-0600 [APP/PROC/WEB/0] OUT LOGGER::In Primary..
+   2018-10-06T19:32:45.87-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:45.90-0600 [RTR/7] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:45.368+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:21526" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"ec4d0ede-e564-4935-7252-72cec3e814a3" response_time:0.531731581 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"675de1de2a469e4d" x_b3_spanid:"675de1de2a469e4d" x_b3_parentspanid:"-"
+   2018-10-06T19:32:45.90-0600 [RTR/7] OUT 
+   2018-10-06T19:32:45.90-0600 [RTR/3] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:45.364+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:2590" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"8a2221cc-c5ec-42b3-7092-ce68decff545" response_time:0.537678948 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"3dd02e5a87d061b2" x_b3_spanid:"3dd02e5a87d061b2" x_b3_parentspanid:"-"
+   2018-10-06T19:32:45.90-0600 [RTR/3] OUT 
+   2018-10-06T19:32:46.00-0600 [RTR/9] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:45.364+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:27996" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"4bf205e6-c713-4168-7bf2-61efb3ba1c01" response_time:0.635716982 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"961ef884bd5b12d0" x_b3_spanid:"961ef884bd5b12d0" x_b3_parentspanid:"-"
+   2018-10-06T19:32:46.00-0600 [RTR/9] OUT 
+   2018-10-06T19:32:46.00-0600 [RTR/5] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:45.364+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:19932" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"8629e07c-3d3b-40fc-4e22-4d03c259770b" response_time:0.640436339 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"fc51adab8d42fc0f" x_b3_spanid:"fc51adab8d42fc0f" x_b3_parentspanid:"-"
+   2018-10-06T19:32:46.00-0600 [RTR/5] OUT 
+   2018-10-06T19:32:45.88-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:45.88-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:45.89-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:45.89-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:45.89-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:45.98-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:45.98-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:45.98-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:45.99-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:45.99-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:46.00-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:46.68-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:46.69-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:46.70-0600 [RTR/4] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:46.181+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:61750" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"cbe7cf56-e7bd-419f-7a02-9b6eb328d1f2" response_time:0.525040891 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"3fbbc8c689cfa20a" x_b3_spanid:"3fbbc8c689cfa20a" x_b3_parentspanid:"-"
+   2018-10-06T19:32:46.70-0600 [RTR/4] OUT 
+   2018-10-06T19:32:46.71-0600 [RTR/6] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:46.182+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:3104" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"d68635aa-8ad7-416a-50b3-04e6d0bb6b46" response_time:0.536233215 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"ea8483cad426a895" x_b3_spanid:"ea8483cad426a895" x_b3_parentspanid:"-"
+   2018-10-06T19:32:46.71-0600 [RTR/6] OUT 
+   2018-10-06T19:32:46.72-0600 [RTR/9] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:46.191+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:28024" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"16381b64-1423-4958-73a4-c077cac1d3d8" response_time:0.532407684 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"0e6504ecc44b7217" x_b3_spanid:"0e6504ecc44b7217" x_b3_parentspanid:"-"
+   2018-10-06T19:32:46.72-0600 [RTR/9] OUT 
+   2018-10-06T19:32:46.73-0600 [RTR/7] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:46.200+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:22052" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"753d3ebf-4730-4d17-7113-d52245fecfde" response_time:0.536767264 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"8d09d0a4fecb5900" x_b3_spanid:"8d09d0a4fecb5900" x_b3_parentspanid:"-"
+   2018-10-06T19:32:46.73-0600 [RTR/7] OUT 
+   2018-10-06T19:32:46.69-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:46.69-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:46.69-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:46.70-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:46.70-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:46.70-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:46.70-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:46.71-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:46.71-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:46.72-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:47.50-0600 [RTR/9] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:46.985+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:28024" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"b39ed068-c822-43fb-7aee-31ef999b6ad7" response_time:0.517779574 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"aec849e43333e2ed" x_b3_spanid:"aec849e43333e2ed" x_b3_parentspanid:"-"
+   2018-10-06T19:32:47.50-0600 [RTR/9] OUT 
+   2018-10-06T19:32:47.51-0600 [RTR/10] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:46.985+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:15354" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"1c01e261-28e2-4c8d-6143-8cc4208377c6" response_time:0.533825497 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"cabd64ee8614b127" x_b3_spanid:"cabd64ee8614b127" x_b3_parentspanid:"-"
+   2018-10-06T19:32:47.51-0600 [RTR/10] OUT 
+   2018-10-06T19:32:47.52-0600 [RTR/8] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:46.986+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:62414" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"20fd278a-b764-4acf-73ca-49a3c25005e0" response_time:0.534240222 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"6c24f49e65fcd3e2" x_b3_spanid:"6c24f49e65fcd3e2" x_b3_parentspanid:"-"
+   2018-10-06T19:32:47.52-0600 [RTR/8] OUT 
+   2018-10-06T19:32:47.48-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:47.49-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:47.49-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:47.49-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:47.49-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:47.50-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:47.50-0600 [RTR/7] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:46.984+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:22052" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"66277f16-1a3c-4ca0-415a-a865632a8b5e" response_time:0.516166381 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"b3ffa226d3122069" x_b3_spanid:"b3ffa226d3122069" x_b3_parentspanid:"-"
+   2018-10-06T19:32:47.50-0600 [RTR/7] OUT 
+   2018-10-06T19:32:47.50-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:47.50-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:47.50-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:47.51-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:47.51-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:47.51-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:48.27-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:48.31-0600 [RTR/5] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:47.765+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:19942" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"e44ffce6-0771-40f9-62cf-a613130c19c9" response_time:0.546697007 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"2dcee06969ad4875" x_b3_spanid:"2dcee06969ad4875" x_b3_parentspanid:"-"
+   2018-10-06T19:32:48.31-0600 [RTR/5] OUT 
+   2018-10-06T19:32:48.31-0600 [RTR/3] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:47.777+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:2636" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"aa1f0015-c892-4e4f-7870-91fd90bad04a" response_time:0.541609668 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"3ac9d7604157e56a" x_b3_spanid:"3ac9d7604157e56a" x_b3_parentspanid:"-"
+   2018-10-06T19:32:48.31-0600 [RTR/3] OUT 
+   2018-10-06T19:32:48.33-0600 [RTR/7] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:47.781+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:22128" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"000c72f8-1a32-48b6-6091-be33a8feadc6" response_time:0.550769154 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"8770e9e84e0387bf" x_b3_spanid:"8770e9e84e0387bf" x_b3_parentspanid:"-"
+   2018-10-06T19:32:48.33-0600 [RTR/7] OUT 
+   2018-10-06T19:32:48.34-0600 [RTR/9] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:47.778+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:27996" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"5e5cfe05-48d3-41dd-74cf-84c65e9d3f47" response_time:0.569855281 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"f18021f249909a1e" x_b3_spanid:"f18021f249909a1e" x_b3_parentspanid:"-"
+   2018-10-06T19:32:48.34-0600 [RTR/9] OUT 
+   2018-10-06T19:32:48.28-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:48.29-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:48.29-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:48.29-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:48.29-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:48.29-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:48.29-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:48.31-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:48.31-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:48.32-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:48.34-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:49.04-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:49.05-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:49.06-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:49.07-0600 [RTR/3] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:48.542+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:2674" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"dad43f29-418d-4b1b-736d-dc4aef0bc090" response_time:0.529122411 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"961f992dc3003fe5" x_b3_spanid:"961f992dc3003fe5" x_b3_parentspanid:"-"
+   2018-10-06T19:32:49.07-0600 [RTR/3] OUT 
+   2018-10-06T19:32:49.16-0600 [RTR/4] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:48.543+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:61620" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"54cf2d57-89eb-437d-546f-77482f36ce9a" response_time:0.625588295 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"04614375749897d9" x_b3_spanid:"04614375749897d9" x_b3_parentspanid:"-"
+   2018-10-06T19:32:49.16-0600 [RTR/4] OUT 
+   2018-10-06T19:32:49.16-0600 [RTR/10] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:48.542+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:15502" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"c1f8c6f0-93b6-4124-6806-77b538f78ce2" response_time:0.626785714 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"8df664cbd0f3a963" x_b3_spanid:"8df664cbd0f3a963" x_b3_parentspanid:"-"
+   2018-10-06T19:32:49.16-0600 [RTR/10] OUT 
+   2018-10-06T19:32:49.17-0600 [RTR/0] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:48.541+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:20816" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"172396a5-8c1f-4a6e-4b30-93e69127ab4c" response_time:0.63303733 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"c1dc88fc8f6e532e" x_b3_spanid:"c1dc88fc8f6e532e" x_b3_parentspanid:"-"
+   2018-10-06T19:32:49.17-0600 [RTR/0] OUT 
+   2018-10-06T19:32:49.15-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:49.15-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:49.15-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:49.15-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:49.15-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:49.16-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:49.16-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:49.16-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:49.17-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:49.95-0600 [RTR/7] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:49.433+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:22052" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"f4551b3c-8f68-48df-4e25-bdd12697130e" response_time:0.521885393 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"1db49d5f0db015a5" x_b3_spanid:"1db49d5f0db015a5" x_b3_parentspanid:"-"
+   2018-10-06T19:32:49.95-0600 [RTR/7] OUT 
+   2018-10-06T19:32:49.98-0600 [RTR/8] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:49.430+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:62866" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"d94c2c6a-c211-4689-6b09-8e2738de1688" response_time:0.551717312 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"682e02421b5fb248" x_b3_spanid:"682e02421b5fb248" x_b3_parentspanid:"-"
+   2018-10-06T19:32:49.98-0600 [RTR/8] OUT 
+   2018-10-06T19:32:49.93-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:49.93-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:49.94-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:49.94-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:49.95-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:49.96-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:49.96-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:49.96-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:49.96-0600 [RTR/4] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:49.434+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:61750" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"957b5be6-fab5-47ae-5105-03491bdbf587" response_time:0.529974987 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"7a6f3cce40c9106e" x_b3_spanid:"7a6f3cce40c9106e" x_b3_parentspanid:"-"
+   2018-10-06T19:32:49.96-0600 [RTR/4] OUT 
+   2018-10-06T19:32:49.97-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:49.97-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:49.97-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:49.97-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:49.98-0600 [RTR/8] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:49.436+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:62836" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"364db65b-7c62-4883-6c7d-8155dacd1858" response_time:0.548035105 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"96e25e18fa7487df" x_b3_spanid:"96e25e18fa7487df" x_b3_parentspanid:"-"
+   2018-10-06T19:32:49.98-0600 [RTR/8] OUT 
+   2018-10-06T19:32:50.49-0600 [APP/PROC/WEB/0] OUT LOGGER::In Primary..
+   2018-10-06T19:32:50.49-0600 [APP/PROC/WEB/0] OUT LOGGER::In Primary..
+   2018-10-06T19:32:50.75-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:50.78-0600 [RTR/4] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:50.248+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:61750" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"619e4fba-7229-4051-725f-ea98679ca977" response_time:0.531917403 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"e17f72c4f7c88c89" x_b3_spanid:"e17f72c4f7c88c89" x_b3_parentspanid:"-"
+   2018-10-06T19:32:50.78-0600 [RTR/4] OUT 
+   2018-10-06T19:32:50.78-0600 [RTR/0] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:50.245+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:20848" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"616548f3-26e1-4444-73d1-6def3f174229" response_time:0.53602734 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"63069321041cf822" x_b3_spanid:"63069321041cf822" x_b3_parentspanid:"-"
+   2018-10-06T19:32:50.78-0600 [RTR/0] OUT 
+   2018-10-06T19:32:50.79-0600 [RTR/6] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:50.249+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:3054" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"bcbbfe4e-3473-41c5-6730-c513e185e5da" response_time:0.54271448 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"275d80208ebb51d7" x_b3_spanid:"275d80208ebb51d7" x_b3_parentspanid:"-"
+   2018-10-06T19:32:50.79-0600 [RTR/6] OUT 
+   2018-10-06T19:32:50.76-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:50.76-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:50.76-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:50.77-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:50.77-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:50.77-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:50.77-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:50.77-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:50.78-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:50.78-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:50.78-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:50.79-0600 [RTR/11] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:50.253+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:18330" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"14d969ea-5f58-4dd9-5e94-4c2a9b93216a" response_time:0.543281808 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"11ffb6a8a3a55df4" x_b3_spanid:"11ffb6a8a3a55df4" x_b3_parentspanid:"-"
+   2018-10-06T19:32:50.79-0600 [RTR/11] OUT 
+   2018-10-06T19:32:51.49-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:51.49-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:51.52-0600 [RTR/3] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:50.990+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:2636" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"1e056a41-7201-42d1-4d86-83d5b126f792" response_time:0.530430578 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"ba702d528130afb4" x_b3_spanid:"ba702d528130afb4" x_b3_parentspanid:"-"
+   2018-10-06T19:32:51.52-0600 [RTR/3] OUT 
+   2018-10-06T19:32:51.52-0600 [RTR/6] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:50.991+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:3054" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"2fe5a30e-f177-4004-5292-005c9406c111" response_time:0.531813714 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"b2675dbe5344f184" x_b3_spanid:"b2675dbe5344f184" x_b3_parentspanid:"-"
+   2018-10-06T19:32:51.52-0600 [RTR/6] OUT 
+   2018-10-06T19:32:51.54-0600 [RTR/4] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:50.991+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:61838" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"84c00922-60c8-49b5-76cf-534c7970c3b1" response_time:0.549450357 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"353f26442509814f" x_b3_spanid:"353f26442509814f" x_b3_parentspanid:"-"
+   2018-10-06T19:32:51.54-0600 [RTR/4] OUT 
+   2018-10-06T19:32:51.54-0600 [RTR/8] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:50.991+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:58644" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"61bbe556-e83a-4f1e-7ac7-01bb9b2fa825" response_time:0.550409347 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"bd647b5b6a8aa0c2" x_b3_spanid:"bd647b5b6a8aa0c2" x_b3_parentspanid:"-"
+   2018-10-06T19:32:51.54-0600 [RTR/8] OUT 
+   2018-10-06T19:32:51.49-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:51.50-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:51.50-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:51.50-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:51.50-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:51.50-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:51.51-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:51.51-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:51.52-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:51.52-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:52.24-0600 [RTR/0] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:51.713+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:20904" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"4eba120a-e614-49a1-7cfc-e61814abf144" response_time:0.533872848 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"47535a16ae8de382" x_b3_spanid:"47535a16ae8de382" x_b3_parentspanid:"-"
+   2018-10-06T19:32:52.24-0600 [RTR/0] OUT 
+   2018-10-06T19:32:52.26-0600 [RTR/11] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:51.721+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:18330" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"28cd1364-45f4-4cfc-6df6-83dd0f2e4ead" response_time:0.542529269 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"b8f0e3b71270135f" x_b3_spanid:"b8f0e3b71270135f" x_b3_parentspanid:"-"
+   2018-10-06T19:32:52.26-0600 [RTR/11] OUT 
+   2018-10-06T19:32:52.26-0600 [RTR/6] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:51.717+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:3054" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"7a69356d-7242-49ce-42bc-e4e2380da3b8" response_time:0.552490016 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"af19b7523e719f3a" x_b3_spanid:"af19b7523e719f3a" x_b3_parentspanid:"-"
+   2018-10-06T19:32:52.26-0600 [RTR/6] OUT 
+   2018-10-06T19:32:52.29-0600 [RTR/7] OUT jdbcpoc.cfapps.io - [2018-10-07T01:32:51.720+0000] "GET /delay?d1=5&d2=0 HTTP/1.1" 200 0 16 "-" "Apache-HttpClient/4.5.3 (Java/1.8.0_152)" "10.10.66.49:22254" "10.10.148.171:61052" x_forwarded_for:"24.11.122.135, 10.10.66.49" x_forwarded_proto:"http" vcap_request_id:"bb91f3e9-2746-48e8-5d66-997033754c38" response_time:0.574667579 app_id:"94d62bb6-bcdd-4f80-b701-37b1cee68def" app_index:"0" x_b3_traceid:"5a7063081c41f9fb" x_b3_spanid:"5a7063081c41f9fb" x_b3_parentspanid:"-"
+   2018-10-06T19:32:52.29-0600 [RTR/7] OUT 
+   2018-10-06T19:32:52.22-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:52.23-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:52.23-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:52.23-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:52.23-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:52.24-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:52.24-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured TIMEOUT
+   2018-10-06T19:32:52.24-0600 [APP/PROC/WEB/0] OUT LOGGER::In Secondary..null
+   2018-10-06T19:32:52.24-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:52.25-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:52.26-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS
+   2018-10-06T19:32:52.28-0600 [APP/PROC/WEB/0] OUT **WARNING** Hystrix Event Occured FALLBACK_SUCCESS

@@ -52,7 +52,7 @@ public class MyDAO {
     public String delay(int delayInSec) throws SQLException {
 
         long sTime = System.currentTimeMillis();
-        System.out.println("Inside dao.delay()");
+       // System.out.println("Inside dao.delay()");
 
         String sql = "{call DELAY(?)}";
         Connection c = datasource.getConnection();
@@ -63,7 +63,7 @@ public class MyDAO {
         p.close();
         c.close();
 
-        System.out.println("Exiting dao.delay()");
+       // System.out.println("Exiting dao.delay()");
 
         long eTime = System.currentTimeMillis();
 
