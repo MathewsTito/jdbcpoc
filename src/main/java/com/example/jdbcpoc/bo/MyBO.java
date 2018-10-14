@@ -23,10 +23,10 @@ public class MyBO {
         return theDAO.execute();
     }
 
-    @HystrixCommand(fallbackMethod = "secondaryCall",
+    @HystrixCommand(fallbackMethod = "secondaryCall",threadPoolKey = "primaryPool",
             commandProperties = {
                     @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "500"),
-//                   @HystrixProperty(name = "circuitBreaker.enabled", value = "false")
+                    @HystrixProperty(name = "circuitBreaker.enabled", value = "false")
             },
             threadPoolProperties = {
                     @HystrixProperty(name = "coreSize", value = "2"),
@@ -41,7 +41,18 @@ public class MyBO {
         return theDAO.delay(d1);
     }
 
-    @HystrixCommand(fallbackMethod = "finalCall")
+    @HystrixCommand(fallbackMethod = "finalCall",threadPoolKey = "secondaryPool",
+            commandProperties = {
+                    @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "500"),
+                    @HystrixProperty(name = "circuitBreaker.enabled", value = "false")
+            },
+            threadPoolProperties = {
+                    @HystrixProperty(name = "coreSize", value = "2"),
+                    @HystrixProperty(name = "maxQueueSize", value = "4"),
+                    @HystrixProperty(name = "queueSizeRejectionThreshold", value = "4"),
+                    @HystrixProperty(name = "allowMaximumSizeToDivergeFromCoreSize", value = "true")
+            }
+    )
     public String secondaryCall(int d1, int d2, Throwable e) throws SQLException {
         System.out.println("LOGGER::In Secondary.." +e.getMessage());
         return theDAO.delay(d2);

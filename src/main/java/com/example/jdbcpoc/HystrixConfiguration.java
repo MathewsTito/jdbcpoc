@@ -13,10 +13,10 @@ public class HystrixConfiguration {
         return new HystrixCommandAspect();
     }
 
-    @Bean
-    public CircuitBreakerHystrixEventNotifier hystrixEventNotifier(){
-        CircuitBreakerHystrixEventNotifier notifier = new CircuitBreakerHystrixEventNotifier();
-        HystrixPlugins.getInstance().registerEventNotifier(notifier);
-        return notifier;
-    }
+//    @Bean
+//    public CircuitBreakerHystrixEventNotifier hystrixEventNotifier(){
+//        CircuitBreakerHystrixEventNotifier notifier = new CircuitBreakerHystrixEventNotifier();
+//        HystrixPlugins.getInstance().registerEventNotifier(notifier);
+//        return notifier;
+//    }
 }
