@@ -29,7 +29,7 @@ public class MyBO {
                     @HystrixProperty(name = "circuitBreaker.enabled", value = "false")
             },
             threadPoolProperties = {
-                    @HystrixProperty(name = "coreSize", value = "2"),
+                    @HystrixProperty(name = "coreSize", value = "4"),
                     @HystrixProperty(name = "maxQueueSize", value = "4"),
                     @HystrixProperty(name = "queueSizeRejectionThreshold", value = "4"),
                     @HystrixProperty(name = "allowMaximumSizeToDivergeFromCoreSize", value = "true")
@@ -47,7 +47,7 @@ public class MyBO {
                     @HystrixProperty(name = "circuitBreaker.enabled", value = "false")
             },
             threadPoolProperties = {
-                    @HystrixProperty(name = "coreSize", value = "2"),
+                    @HystrixProperty(name = "coreSize", value = "4"),
                     @HystrixProperty(name = "maxQueueSize", value = "4"),
                     @HystrixProperty(name = "queueSizeRejectionThreshold", value = "4"),
                     @HystrixProperty(name = "allowMaximumSizeToDivergeFromCoreSize", value = "true")

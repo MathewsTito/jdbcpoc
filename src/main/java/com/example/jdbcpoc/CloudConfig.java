@@ -32,17 +32,14 @@ public class CloudConfig    {
                 Map<String, Object> connectionProperties = new HashMap<>();
 //              connectionProperties.put("loginTimeout", 5);
 
-                PooledServiceConnectorConfig.PoolConfig poolConfig = new PooledServiceConnectorConfig.PoolConfig(4, 4, 5000);
+                PooledServiceConnectorConfig.PoolConfig poolConfig = new PooledServiceConnectorConfig.PoolConfig(4, 4, 500);
 
                 List<String> dataSourceNames = Arrays.asList("TomcatJdbcPooledDataSourceCreator", "BasicDbcpPooledDataSourceCreator","MysqlDataSourceCreator");
 
                 DataSourceConfig dbConfig = new DataSourceConfig(poolConfig, null,dataSourceNames,connectionProperties);
-//                List<String> dataSourceNames = Arrays.asList("TomcatJdbcPooledDataSourceCreator", "HikariCpPooledDataSourceCreator", "BasicDbcpPooledDataSourceCreator");
-//                DataSourceConfig dbConfig = new DataSourceConfig(dataSourceNames);
                 DataSource ds = connectionFactory().dataSource("mysql-vakyam", dbConfig);
-                //MysqlDataSource ds =cloud.getServiceConnector("mysql-vakyam",MysqlDataSource.class,dbConfig);
                 try {
-                    ds.setLoginTimeout(30);
+                    ds.setLoginTimeout(1);  //value is in seconds
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }
@@ -50,8 +47,7 @@ public class CloudConfig    {
                 //DBCP2 uses the maxWaitTime in poolConfig, but TomcatJDBC uses the value set in LoginTimeOut
 
                 return ds;
-                //String serviceID = cloud.getServiceID();
-                //return cloud.getServiceConnector("database", DataSource.class, null);
+
             }
         }
 
