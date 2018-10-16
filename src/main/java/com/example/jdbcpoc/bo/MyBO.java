@@ -26,13 +26,13 @@ public class MyBO {
     @HystrixCommand(fallbackMethod = "secondaryCall",threadPoolKey = "primaryPool",
             commandProperties = {
                     @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "500"),
-                    @HystrixProperty(name = "circuitBreaker.enabled", value = "false")
+                    @HystrixProperty(name = "circuitBreaker.enabled", value = "true")
             },
             threadPoolProperties = {
                     @HystrixProperty(name = "coreSize", value = "2"),
                     @HystrixProperty(name = "maximumSize", value = "4"),
                     //@HystrixProperty(name = "maxQueueSize", value = "4"),
-                    @HystrixProperty(name = "queueSizeRejectionThreshold", value = "4"),
+                    //@HystrixProperty(name = "queueSizeRejectionThreshold", value = "4"),
                     @HystrixProperty(name = "allowMaximumSizeToDivergeFromCoreSize", value = "true")
             }
     )
@@ -51,7 +51,7 @@ public class MyBO {
                     @HystrixProperty(name = "coreSize", value = "2"),
                     @HystrixProperty(name = "maximumSize", value = "4"),
                     //@HystrixProperty(name = "maxQueueSize", value = "4"),
-                    @HystrixProperty(name = "queueSizeRejectionThreshold", value = "4"),
+                    //@HystrixProperty(name = "queueSizeRejectionThreshold", value = "4"),
                     @HystrixProperty(name = "allowMaximumSizeToDivergeFromCoreSize", value = "true")
             }
     )
