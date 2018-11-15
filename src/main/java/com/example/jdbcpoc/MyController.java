@@ -47,4 +47,17 @@ public class MyController {
             return "{error : "+e.getMessage()+"}";
         }
     }
+
+    @RequestMapping("/pause")
+    public Object pause(@RequestParam int sec) {
+        try {
+            long sTime = System.currentTimeMillis();
+            Thread.sleep(sec*1000);
+            long eTime = System.currentTimeMillis();
+            return "{elapsed :"+(eTime-sTime)+"ms}";
+        } catch (Exception e){
+            e.printStackTrace();
+            return "{error : "+e.getMessage()+"}";
+        }
+    }
 }
